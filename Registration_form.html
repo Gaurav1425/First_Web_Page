@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration_Form</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <div class="container">
+    
+    <form>
+        
+        <h1 class="heading">STUDENT REGISTRATION FORM</h1>
+        <hr>
+    
+        <p id="field">Required field *</p>
+        <p>Name :* <input type="text" name="name" id="name" placeholder="fullname" required></p>
+        <P>Birth Date :* <input type="date" name="date" id="date"></P>
+        <p>Gender :* 
+            <select>
+                <option value="" required>--Select Gender--</option>
+                <option value="male" required>Male</option>
+                <option value="female" required>Female</option>
+                <option value="other" required>Other</option>
+            </select> 
+        </p>
+        <p>Address : <textarea name="address" id="address" cols="50" rows="3" placeholder="Enter your address"required></textarea></p>
+        <p id="code">Pincode : <input type="number" name="pincode" id="pincode" required placeholder="000000"></p>
+        <p id="mail">Student Email :* <input type="email" name="email" id="email" placeholder="abc@gmail.com" required></p>
+        <p id="left">Mobile Number :* <input type="number" name="mobile" id="mobile" required></p> 
+        <p id="right">Work Number :* <input type="number" name="work" id="work" required></p>
+        <p>Company :* <input type="text" name="company" id="company" required></p>
+        <p>Courses :* 
+            <select>
+                <option value="" required>--Select Course--</option>
+                <option value="History" required>History</option>
+                <option value="Math" required>Math</option>
+                <option value="Windows 11" required>Windows 11</option>
+            </select> 
+        </p>
+        <input type="submit" value="SUBMIT">
+    
+    </form>    
+    </div>
+</body>
+</html>
